@@ -34,8 +34,8 @@ if text_search:
         # draw the card
         with cols[n_row%N_cards_per_row]:
             st.caption(f"Slack - {row['Timestamp'].strip()}")
+            st.markdown(f"*'{row['Text'].strip()}'*")
             st.markdown(f"**{row['Author'].strip()}**")
-            st.markdown(f"*{row['Text'].strip()}*")
             
 
 
