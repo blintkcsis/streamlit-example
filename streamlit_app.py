@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # Page setup
-st.set_page_config(page_title="Python Talks Search Engine", page_icon="🐍", layout="wide")
+st.set_page_config(page_title="Hunch", page_icon="🐍", layout="wide")
 st.title("Python Talks Search Engine")
 
 # Connect to the Google Sheet
