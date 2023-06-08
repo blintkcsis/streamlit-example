@@ -4,7 +4,7 @@ import pandas as pd
 
 # Page setup
 st.set_page_config(page_title="Hunch", page_icon="🐍", layout="wide")
-st.title("Python Talks Search Engine")
+st.title("Hunch")
 
 # Connect to the Google Sheet
 sheet_id = "1TyeydBGOvcDrSm_OZZqfgI0Xpc0e2mQMXfZvgH8xsUc"
